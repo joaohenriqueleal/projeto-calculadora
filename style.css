@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, rgba(223, 0, 0, 0.783), rgb(102, 0, 0));
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+
+    background-color: #000000d9;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.29);
+    color: white;
+    font-size: 40px;
+    transition: .2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+main {
+    background-color: #212121;
+    border-radius: 30px;
+
+    padding: 40px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.33);
+}
+
+.expand {
+    width: 95%;
+}
+
+.painel {
+    height: 150px;
+    background-color: rgb(203, 203, 203);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.29);
+    transition: .3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.painel:hover {
+    transform: scale(1.03);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.327);
+}
+
+#apagar {
+    background-color: rgba(255, 48, 48, 0.629);
+}
+
+#apagar:hover {
+    background-color: red;
+}
+
+.text-painel {
+    font-size: 60px;
+    padding: 10px;
+}
